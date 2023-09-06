@@ -3,6 +3,17 @@
   | Base styles
   |============================
 */
+body {
+  color: #111;
+  font-family: Montserrat;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+
 /**
   |============================
   | Hero styles

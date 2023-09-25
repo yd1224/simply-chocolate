@@ -5,13 +5,18 @@
 */
 body {
   color: #111;
-  font-family: Montserrat;
+  font-family: 'Montserrat', sans-serif;
 }
 a {
   text-decoration: none;
+  color: currentColor;
 }
 ul {
   list-style: none;
+}
+button {
+  font-family: inherit;
+  cursor: pointer;
 }
 
 /**

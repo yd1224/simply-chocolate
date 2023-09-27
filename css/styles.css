@@ -1,10 +1,16 @@
+:root {
+  /* Colors */
+  --text-color: #111;
+  --gray-bg: rgba(17, 17, 17, 0.6);
+}
+
 /**
   |============================
   | Base styles
   |============================
 */
 body {
-  color: #111;
+  color: var(--text-color);
   font-family: 'Montserrat', sans-serif;
 }
 a {
@@ -18,7 +24,43 @@ button {
   font-family: inherit;
   cursor: pointer;
 }
+/**
+  |============================
+  | Header styles
+  |============================
+*/
+.header {
+}
+.header-nav {
+}
+.header-nav-logo-link {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.11;
+  letter-spacing: -0.03em;
+}
+.header-nav-logo-link-accent {
+  font-style: italic;
+}
+.header-nav-list {
+}
+.header-nav-list-item {
+}
+.header-nav-list-item-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
 
+  letter-spacing: -0.02em;
+}
+.header-nav-listoflinks {
+}
+.header-nav-listoflinks-item {
+}
+.header-nav-listoflinks-item-link {
+}
+.header-nav-listoflinks-item-img {
+}
 /**
   |============================
   | Hero styles
@@ -26,16 +68,35 @@ button {
 */
 
 .hero {
+  background-color: var(--gray-bg);
 }
 .hero-title {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1.21;
+
+  letter-spacing: -0.03em;
+
+  color: #ffffff;
 }
 .hero-list {
 }
 .hero-list-item {
 }
 .hero-list-item-btn {
+  font-size: 14px;
+  line-height: 1.21;
+
+  color: #ffffff;
 }
 .hero-scroll {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+
+  letter-spacing: -0.03em;
+
+  color: #ffffff;
 }
 /**
   |============================
